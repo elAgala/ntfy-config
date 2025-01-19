@@ -1,0 +1,6 @@
+base-url: "{YOUR_DOMAIN}"
+cache-file: "/var/cache/ntfy/cache.db"
+behind-proxy: true
+attachment-cache-dir: "/var/cache/ntfy/attachments"
+keepalive-interval: "45s"
+upstream-base-url: "https://ntfy.sh"
