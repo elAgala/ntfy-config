@@ -10,6 +10,7 @@ services:
     volumes:
       - ntfy_cache:/var/cache/ntfy
       - ntfy_config:/etc/ntfy
+      - ./server.yml:/etc/ntfy/server.yml
     ports:
       - 8093:80
     healthcheck: # optional: remember to adapt the host:port to your environment
